@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterdesdecasa/widget/column.dart';
+import 'package:flutterdesdecasa/widget/scaffold.dart';
 import 'package:flutterdesdecasa/widget/stack.dart';
 //import 'package:flutterdesdecasa/widget/container.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       // este vendria siendo nuestro widget madre se entiende que todo esta dentro de un widget global
       home:
-          MyStack(), //esto es una instancia de metodo Text, lo trasladamos desde otra pagina(importacion de archivo)
+          MyScaffold(), //esto es una instancia de metodo Text, lo trasladamos desde otra pagina(importacion de archivo)
     );
   }
 }
