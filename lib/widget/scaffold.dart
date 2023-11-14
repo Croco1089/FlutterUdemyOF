@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class MyScaffold extends StatelessWidget {
-  const MyScaffold({super.key});
+  const MyScaffold({super.key}); 
 
   @override
   Widget build(BuildContext context) {
