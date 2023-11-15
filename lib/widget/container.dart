@@ -22,9 +22,9 @@ class MyCointainer extends StatelessWidget {
               // borderRadius: BorderRadius.all(Radius.circular(10)), // este es el borde del container , con el only puedes hacer los bordes por cada esquina, definiendo los pixeles
               shape: BoxShape
                   .circle, // es lo mismo que borderradius pero de una manera mas sencilla
-              gradient: LinearGradient(
+              gradient: const LinearGradient(
                 // hay otro gradiente que seria desde afuera hacia adentro del mismo container
-                colors: const [
+                colors: [
                   Colors.black,
                   Colors.red,
                 ],
